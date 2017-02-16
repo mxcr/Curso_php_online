@@ -6,9 +6,10 @@
 </head>
 <body>
 <?php
-print"<h1>Bienvenidos al curso php</h1> <br>";
-print "Hola alumnos<br>";
-print "Hasta el proxim video"
+$nombre="Juan";
+$edad=18;
+echo ("El nombre del usuario es ". $nombre. " y su edad es:". $edad. " anos");
+
 ?>
 
 </body>
