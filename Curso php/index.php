@@ -6,15 +6,9 @@
 </head>
 <body>
 <?php
-echo "Este es el primer mensaje <br>";
-
-include ("datos.php");
-//require ("datos.php");
-dameDatos();
-
-echo "<br>";
-echo "Este es el segundo mensaje <br>";
-
+$nombre="Juan";
+$edad=18;
+echo ("El nombre del usuario es ". $nombre. " y su edad es:". $edad. " anos");
 
 ?>
 
